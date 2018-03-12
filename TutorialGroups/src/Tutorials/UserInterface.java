@@ -29,47 +29,48 @@ public class UserInterface extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jButton1 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
+        buttonInsertStudent = new javax.swing.JButton();
+        labelInsert = new javax.swing.JLabel();
+        buttonInsertTutor = new javax.swing.JButton();
+        buttonInsertGroup = new javax.swing.JButton();
+        labelSelect = new javax.swing.JLabel();
+        buttonSelectGroup = new javax.swing.JButton();
+        buttonSelectTutees = new javax.swing.JButton();
+        textSearch = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Home");
         setLocation(new java.awt.Point(200, 200));
         setName("frameHome"); // NOI18N
 
-        jButton1.setText("Student");
+        buttonInsertStudent.setText("Student");
 
-        jLabel1.setText("Insert");
+        labelInsert.setText("Insert");
 
-        jButton2.setAlignmentY(0.0F);
-        jButton2.setLabel("Tutor");
+        buttonInsertTutor.setAlignmentY(0.0F);
+        buttonInsertTutor.setLabel("Tutor");
 
-        jButton3.setText("Tutor Group");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
+        buttonInsertGroup.setText("Tutor Group");
+        buttonInsertGroup.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
+                buttonInsertGroupActionPerformed(evt);
             }
         });
 
-        jLabel2.setText("Select");
+        labelSelect.setText("Select");
 
-        jButton4.setText("Group");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
+        buttonSelectGroup.setText("Group");
+        buttonSelectGroup.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
+                buttonSelectGroupActionPerformed(evt);
             }
         });
 
-        jButton5.setText("Tutees");
-        jButton5.setName("buttonSelectTutees"); // NOI18N
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
+        buttonSelectTutees.setText("Tutees");
+        buttonSelectTutees.setName("buttonSelectTutees"); // NOI18N
+        buttonSelectTutees.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
+                buttonSelectTuteesActionPerformed(evt);
             }
         });
 
@@ -81,59 +82,66 @@ public class UserInterface extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(44, 44, 44)
-                        .addComponent(jButton1)
+                        .addComponent(buttonInsertStudent)
                         .addGap(48, 48, 48)
-                        .addComponent(jButton2)
+                        .addComponent(buttonInsertTutor)
                         .addGap(47, 47, 47)
-                        .addComponent(jButton3))
+                        .addComponent(buttonInsertGroup))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(179, 179, 179)
-                        .addComponent(jLabel1))
+                        .addComponent(labelInsert))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(176, 176, 176)
-                        .addComponent(jLabel2))
+                        .addComponent(labelSelect))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(93, 93, 93)
-                        .addComponent(jButton4)
-                        .addGap(77, 77, 77)
-                        .addComponent(jButton5)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(buttonSelectGroup)
+                                .addGap(77, 77, 77))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(textSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(36, 36, 36)))
+                        .addComponent(buttonSelectTutees)))
                 .addContainerGap(40, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(29, 29, 29)
-                .addComponent(jLabel1)
+                .addComponent(labelInsert)
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3))
+                    .addComponent(buttonInsertStudent)
+                    .addComponent(buttonInsertTutor)
+                    .addComponent(buttonInsertGroup))
                 .addGap(30, 30, 30)
-                .addComponent(jLabel2)
+                .addComponent(labelSelect)
                 .addGap(36, 36, 36)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton4)
-                    .addComponent(jButton5))
-                .addContainerGap(113, Short.MAX_VALUE))
+                    .addComponent(buttonSelectGroup)
+                    .addComponent(buttonSelectTutees))
+                .addGap(26, 26, 26)
+                .addComponent(textSearch, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(67, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void buttonInsertGroupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonInsertGroupActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }//GEN-LAST:event_buttonInsertGroupActionPerformed
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void buttonSelectTuteesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonSelectTuteesActionPerformed
         // TODO add your handling code here
         SELECTVALUE = "tutee";
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }//GEN-LAST:event_buttonSelectTuteesActionPerformed
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void buttonSelectGroupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonSelectGroupActionPerformed
         // TODO add your handling code here:
         SELECTVALUE = "group";
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }//GEN-LAST:event_buttonSelectGroupActionPerformed
 
     /**
      * @param args the command line arguments
@@ -171,12 +179,13 @@ public class UserInterface extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JButton buttonInsertGroup;
+    private javax.swing.JButton buttonInsertStudent;
+    private javax.swing.JButton buttonInsertTutor;
+    private javax.swing.JButton buttonSelectGroup;
+    private javax.swing.JButton buttonSelectTutees;
+    private javax.swing.JLabel labelInsert;
+    private javax.swing.JLabel labelSelect;
+    private javax.swing.JTextField textSearch;
     // End of variables declaration//GEN-END:variables
 }
