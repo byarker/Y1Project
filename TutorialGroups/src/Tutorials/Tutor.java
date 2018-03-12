@@ -9,6 +9,6 @@ package Tutorials;
  *
  * @author alex
  */
-public class Tutor {
+public class Tutor extends Person{
     
 }
