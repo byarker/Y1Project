@@ -9,7 +9,7 @@ package Tutorials;
  *
  * @author alex
  */
-public class Person {
+public abstract class Person {
     String name;
     String uobNumber;
     
