@@ -37,6 +37,7 @@ public class UserInterface extends javax.swing.JFrame {
         buttonSelectGroup = new javax.swing.JButton();
         buttonSelectTutees = new javax.swing.JButton();
         textSearch = new javax.swing.JTextField();
+        buttonSubmit = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Home");
@@ -74,6 +75,8 @@ public class UserInterface extends javax.swing.JFrame {
             }
         });
 
+        buttonSubmit.setText("Find");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -102,7 +105,9 @@ public class UserInterface extends javax.swing.JFrame {
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addComponent(textSearch, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(36, 36, 36)))
-                        .addComponent(buttonSelectTutees)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(buttonSelectTutees)
+                            .addComponent(buttonSubmit))))
                 .addContainerGap(40, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -121,9 +126,11 @@ public class UserInterface extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(buttonSelectGroup)
                     .addComponent(buttonSelectTutees))
-                .addGap(26, 26, 26)
-                .addComponent(textSearch, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(67, Short.MAX_VALUE))
+                .addGap(25, 25, 25)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(textSearch, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(buttonSubmit))
+                .addContainerGap(65, Short.MAX_VALUE))
         );
 
         pack();
@@ -184,6 +191,7 @@ public class UserInterface extends javax.swing.JFrame {
     private javax.swing.JButton buttonInsertTutor;
     private javax.swing.JButton buttonSelectGroup;
     private javax.swing.JButton buttonSelectTutees;
+    private javax.swing.JButton buttonSubmit;
     private javax.swing.JLabel labelInsert;
     private javax.swing.JLabel labelSelect;
     private javax.swing.JTextField textSearch;
