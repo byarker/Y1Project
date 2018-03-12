@@ -143,11 +143,13 @@ public class UserInterface extends javax.swing.JFrame {
     private void buttonSelectTuteesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonSelectTuteesActionPerformed
         // TODO add your handling code here
         SELECTVALUE = "tutee";
+        textSearch.setVisible(true);
     }//GEN-LAST:event_buttonSelectTuteesActionPerformed
 
     private void buttonSelectGroupActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_buttonSelectGroupActionPerformed
         // TODO add your handling code here:
         SELECTVALUE = "group";
+        textSearch.setVisible(true);
     }//GEN-LAST:event_buttonSelectGroupActionPerformed
 
     /**
