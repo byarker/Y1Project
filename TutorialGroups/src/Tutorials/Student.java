@@ -28,4 +28,10 @@ public class Student extends Person {
     public void setTG(String group){
         tutorGroup = group;
     }
+    
+    public Student(String name, String uobNumber, int year, String tutorGroup){
+        super(name, uobNumber);
+        yearOfStudy = year;
+        this.tutorGroup = tutorGroup;
+    }
 }

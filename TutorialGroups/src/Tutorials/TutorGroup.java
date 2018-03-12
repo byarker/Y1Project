@@ -46,4 +46,11 @@ public class TutorGroup {
     public void setTutor(String tutor){
         this.tutor = tutor;
     }
+    
+   public TutorGroup(String name, int members, int year, String tutor){
+       this.name = name;
+       this.members = members;
+       this.year = year;
+       this.tutor = tutor;
+   }
 }
