@@ -10,5 +10,9 @@ package Tutorials;
  * @author alex
  */
 public class TutorGroup {
+    private String name;
+    private int members;
+    private int year;
+    private String tutorName;
     
 }
