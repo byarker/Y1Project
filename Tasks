@@ -1,0 +1,5 @@
+interface from user
+input from interface to database
+connecter to database
+query database
+output data to user/interface
