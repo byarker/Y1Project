@@ -3,4 +3,5 @@
 3. git commit -m "Commit message"
 4. git push
 
+do git pull to update the files
 Should then have updated to github
