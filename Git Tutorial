@@ -1,0 +1,6 @@
+1. Gitbash in folder where project is stored
+2. git add .
+3. git commit -m "Commit message"
+4. git push
+
+Should then have updated to github
