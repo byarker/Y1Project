@@ -20,4 +20,12 @@ public class Student extends Person {
     public String getTG(){
         return tutorGroup;
     }
+    
+    public void setYOS(int year){
+        yearOfStudy = year;
+    }
+    
+    public void setTG(String group){
+        tutorGroup = group;
+    }
 }

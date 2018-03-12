@@ -20,4 +20,12 @@ public abstract class Person {
     public String getuobNumber(){
         return uobNumber;
     }
+    
+    public void setName(String name){
+        this.name = name;
+    }
+    
+    public void setuobNumber(String number){
+        uobNumber = number;
+    }
 }

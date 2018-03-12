@@ -30,4 +30,20 @@ public class TutorGroup {
     public String getTutor(){
         return tutor;
     }
+    
+    public void setName(String name){
+        this.name = name;
+    }
+    
+    public void setMembers(int members){
+        this.members = members;
+    }
+    
+    public void setYear(int year){
+        this.year = year;
+    }
+    
+    public void setTutor(String tutor){
+        this.tutor = tutor;
+    }
 }
