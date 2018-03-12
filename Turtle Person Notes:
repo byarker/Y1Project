@@ -1,0 +1,25 @@
+Gui Interface:
+  >Calls methods within other classes, main loop?
+  >Text based interface or proper gui?
+  
+Data Handler:
+  >Takes information for classes and stores them within database.
+  >Used to effectively save and load objects.
+  
+Tutor Groups:
+  >String Array > Contains names of tutors/students. SELECT name FROM tutors WHERE groupnum = CurrentGroup
+  >String/Int Array > Contains ID of tutors/students. SELECT id FROM tutors WHERE groupnum = CurrentGroup
+  >Int, Int Array > Contains all the year's for current student, if not all same or not equal to tutor group year, error.
+  >Int > Tutor id, quick access to tutor group.
+
+Student:
+  >String for Name
+  >Int for Year, 
+  >String/Int for ID
+  
+Tutors:
+  >String for Name
+  >String.Int for ID
+  >Int array > All tutorgroup nums, if more than 1 tutor group.
+  
+  Unfinished:
