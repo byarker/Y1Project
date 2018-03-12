@@ -12,4 +12,12 @@ package Tutorials;
 public class Student extends Person {
     private int yearOfStudy;
     private String tutorGroup;
+    
+    public int getYOS(){
+        return yearOfStudy;
+}
+    
+    public String getTG(){
+        return tutorGroup;
+    }
 }

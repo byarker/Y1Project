@@ -13,6 +13,21 @@ public class TutorGroup {
     private String name;
     private int members;
     private int year;
-    private String tutorName;
+    private String tutor;
     
+    public String getName(){
+        return name;
+    }
+    
+    public int getMembers(){
+        return members;
+    }
+    
+    public int getYear(){
+        return year;
+    }
+    
+    public String getTutor(){
+        return tutor;
+    }
 }

@@ -13,4 +13,11 @@ public abstract class Person {
     private String name;
     private String uobNumber;
     
+    public String getName(){
+        return name;
+    }
+    
+    public String getuobNumber(){
+        return uobNumber;
+    }
 }
