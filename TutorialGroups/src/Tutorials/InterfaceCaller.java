@@ -5,6 +5,8 @@
  */
 package Tutorials;
 
+import java.sql.ResultSet;
+
 /**
  *
  * @author byarker1
@@ -14,7 +16,7 @@ public interface InterfaceCaller {
     void InsertStudent(String name, int uobnumber, int year, String tutorGroup);
     void InsertTutor(String name, int uobnumber);
     void InsertGroup(String groupName, int year, String tutor);
-    String SelectGroup(String groupName);
-    String SelectTutees(String tutor);
+    ResultSet SelectGroup(String groupName);
+    ResultSet SelectTutees(String tutor);
     
 }
