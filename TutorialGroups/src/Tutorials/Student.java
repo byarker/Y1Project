@@ -29,7 +29,8 @@ public class Student extends Person {
     public void setTG(String group) {
         tutorGroup = group;
     }
-
+    
+    //constructor
     public Student(String name, String uobNumber, int year, String tutorGroup) {
         super(name, uobNumber);
         yearOfStudy = year;

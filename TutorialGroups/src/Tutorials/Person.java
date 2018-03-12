@@ -29,7 +29,8 @@ public abstract class Person {
     public void setuobNumber(String number) {
         uobNumber = number;
     }
-
+    
+    //constructor
     public Person(String name, String uobNumber) {
         this.name = name;
         this.uobNumber = uobNumber;

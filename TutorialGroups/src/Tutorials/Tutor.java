@@ -10,7 +10,8 @@ package Tutorials;
  * @author alex
  */
 public class Tutor extends Person {
-
+    
+    //costructor
     public Tutor(String name, String uobNumber) {
         super(name, uobNumber);
     }
