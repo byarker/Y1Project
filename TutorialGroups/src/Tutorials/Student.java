@@ -10,5 +10,5 @@ package Tutorials;
  * @author alex
  */
 public class Student extends Person {
-    int yearOfStudy;
+    private int yearOfStudy;
 }
