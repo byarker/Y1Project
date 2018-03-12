@@ -10,22 +10,29 @@ package Tutorials;
  * @author alex
  */
 public abstract class Person {
+
     private String name;
     private String uobNumber;
-    
-    public String getName(){
+
+    public String getName() {
         return name;
     }
-    
-    public String getuobNumber(){
+
+    public String getuobNumber() {
         return uobNumber;
     }
-    
-    public void setName(String name){
+
+    public void setName(String name) {
         this.name = name;
     }
-    
-    public void setuobNumber(String number){
+
+    public void setuobNumber(String number) {
         uobNumber = number;
+    }
+    
+    //constructor
+    public Person(String name, String uobNumber) {
+        this.name = name;
+        this.uobNumber = uobNumber;
     }
 }
