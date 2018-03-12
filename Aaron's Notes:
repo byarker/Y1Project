@@ -6,6 +6,8 @@ Data Handler:
   >Takes information for classes and stores them within database.
   >Used to effectively save and load objects.
   
+  >saveStudent,saveTutor,saveTutorGroup methods, edit method will call load methods, hold for edits, then re-save to the same location.
+  
 Tutor Groups:
   >String Array > Contains names of tutors/students. SELECT name FROM tutors WHERE groupnum = CurrentGroup
   >String/Int Array > Contains ID of tutors/students. SELECT id FROM tutors WHERE groupnum = CurrentGroup
