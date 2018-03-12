@@ -11,4 +11,5 @@ package Tutorials;
  */
 public class Student extends Person {
     private int yearOfStudy;
+    private String TutorGroup;
 }
