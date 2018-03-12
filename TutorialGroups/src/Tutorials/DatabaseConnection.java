@@ -14,5 +14,5 @@ public class DatabaseConnection {
     //Second test
     
     //third test
-    //Git Power
+    //Git Powers
 }
