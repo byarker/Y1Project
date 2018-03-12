@@ -10,26 +10,27 @@ package Tutorials;
  * @author alex
  */
 public class Student extends Person {
+
     private int yearOfStudy;
     private String tutorGroup;
-    
-    public int getYOS(){
+
+    public int getYOS() {
         return yearOfStudy;
-}
-    
-    public String getTG(){
+    }
+
+    public String getTG() {
         return tutorGroup;
     }
-    
-    public void setYOS(int year){
+
+    public void setYOS(int year) {
         yearOfStudy = year;
     }
-    
-    public void setTG(String group){
+
+    public void setTG(String group) {
         tutorGroup = group;
     }
-    
-    public Student(String name, String uobNumber, int year, String tutorGroup){
+
+    public Student(String name, String uobNumber, int year, String tutorGroup) {
         super(name, uobNumber);
         yearOfStudy = year;
         this.tutorGroup = tutorGroup;

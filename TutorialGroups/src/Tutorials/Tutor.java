@@ -9,9 +9,9 @@ package Tutorials;
  *
  * @author alex
  */
-public class Tutor extends Person{
-    
-  public Tutor(String name, String uobNumber){
-      super(name, uobNumber);
-  }
+public class Tutor extends Person {
+
+    public Tutor(String name, String uobNumber) {
+        super(name, uobNumber);
+    }
 }
