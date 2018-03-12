@@ -10,7 +10,7 @@ package Tutorials;
  * @author alex
  */
 public class Student extends Person {
-
+    //Attributes
     private int yearOfStudy;
     private String tutorGroup;
 
