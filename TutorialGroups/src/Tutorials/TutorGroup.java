@@ -11,12 +11,16 @@ package Tutorials;
  */
 public class TutorGroup {
 
-    private int groupid; // Needed for Database Stuffs. (Modified by Aaron)
+    private int groupId; // Needed for Database Stuffs. (Modified by Aaron)
     private String name;
     private int members;
     private int year;
     private String tutor;
 
+    public int getGroupId(){
+        return groupId;
+    }
+    
     public String getName() {
         return name;
     }
@@ -33,6 +37,9 @@ public class TutorGroup {
         return tutor;
     }
 
+    public void setId(int groupId){
+        this.groupId = groupId;
+    }
     public void setName(String name) {
         this.name = name;
     }
