@@ -11,6 +11,7 @@ package Tutorials;
  */
 public class TutorGroup {
 
+    private int groupid; // Needed for Database Stuffs. (Modified by Aaron)
     private String name;
     private int members;
     private int year;
