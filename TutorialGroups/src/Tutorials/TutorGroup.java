@@ -37,7 +37,7 @@ public class TutorGroup {
         return tutor;
     }
 
-    public void setId(int groupId){
+    public void setGroupId(int groupId){
         this.groupId = groupId;
     }
     public void setName(String name) {
