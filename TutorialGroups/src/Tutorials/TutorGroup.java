@@ -10,13 +10,14 @@ package Tutorials;
  * @author alex
  */
 public class TutorGroup {
-
+    //attributes
     private int groupId; // Needed for Database Stuffs. (Modified by Aaron)
     private String name;
     private int members;
     private int year;
     private String tutor;
-
+  //methods
+    //getters
     public int getGroupId(){
         return groupId;
     }
@@ -36,7 +37,7 @@ public class TutorGroup {
     public String getTutor() {
         return tutor;
     }
-
+    //setters
     public void setGroupId(int groupId){
         this.groupId = groupId;
     }

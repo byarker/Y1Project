@@ -13,7 +13,8 @@ public class Student extends Person {
     //Attributes
     private int yearOfStudy;
     private String tutorGroup;
-
+ //methods
+    //getters
     public int getYOS() {
         return yearOfStudy;
     }
@@ -21,7 +22,7 @@ public class Student extends Person {
     public String getTG() {
         return tutorGroup;
     }
-
+    //setters
     public void setYOS(int year) {
         yearOfStudy = year;
     }

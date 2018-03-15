@@ -10,10 +10,11 @@ package Tutorials;
  * @author alex
  */
 public abstract class Person {
-
+    //variables
     private String name;
     private String uobNumber;
 
+    //Getters
     public String getName() {
         return name;
     }
@@ -21,7 +22,8 @@ public abstract class Person {
     public String getuobNumber() {
         return uobNumber;
     }
-
+    
+    //setters
     public void setName(String name) {
         this.name = name;
     }
