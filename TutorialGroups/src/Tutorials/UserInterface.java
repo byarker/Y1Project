@@ -9,6 +9,8 @@ package Tutorials;
  *
  * @author byarker1
  */
+
+//unused in final build due to netbeans forcing proprietary gui elements and being messy.
 public class UserInterface extends javax.swing.JFrame {
     
     String SELECTVALUE = null;

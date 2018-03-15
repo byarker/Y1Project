@@ -10,6 +10,8 @@ package Tutorials;
  * @author byarker1
  */
 
+//unused in final build due to gui being finnicky
+
 import java.awt.*;
 import javax.swing.*;
 
