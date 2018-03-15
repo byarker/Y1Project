@@ -82,7 +82,7 @@ public class DataBaseHandler {
         }
     }
     public ResultSet selectStudent(String searchterm){
-        String query = "SELECT * FROM students WHERE '%" + searchterm + "%' IN (name,uobnumber,yearofstudy,tutorgroup)";
+        String query = "SELECT * FROM students WHERE '" + searchterm + "' IN (name,uobnumber,yearofstudy,tutorgroup)";
         return readQuery(searchterm);
         
     }
