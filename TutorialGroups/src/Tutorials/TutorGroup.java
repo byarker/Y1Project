@@ -9,6 +9,8 @@ package Tutorials;
  *
  * @author alex
  */
+
+//unused in final build.
 public class TutorGroup {
     //attributes
     private int groupId; // Needed for Database Stuffs. (Modified by Aaron)

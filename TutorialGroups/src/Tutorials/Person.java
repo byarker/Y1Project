@@ -9,11 +9,16 @@ package Tutorials;
  *
  * @author alex
  */
+
+//Unused in final build.
 public abstract class Person {
-    //variables
+    //Attributes
     private String name;
     private String uobNumber;
 
+    
+   
+  //methods
     //Getters
     public String getName() {
         return name;

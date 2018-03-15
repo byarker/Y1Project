@@ -9,6 +9,7 @@ package Tutorials;
  *
  * @author alex
  */
+//unused in final build.
 public class Student extends Person {
     //Attributes
     private int yearOfStudy;

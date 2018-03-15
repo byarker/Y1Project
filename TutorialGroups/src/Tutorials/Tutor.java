@@ -9,6 +9,8 @@ package Tutorials;
  *
  * @author alex
  */
+
+//unused in final build.
 public class Tutor extends Person {
     
     //costructor
