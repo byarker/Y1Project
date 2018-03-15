@@ -15,20 +15,39 @@ import javax.swing.*;
 
 public class NewInterface extends JFrame{
     public NewInterface(){
+        
+        //Setting up frame
         super("Home");
-        
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setBounds(200, 200, 500, 500);
         
-        JLabel labelInsert = new JLabel("Insert");
+        //Container: Insert
+        JPanel panelInsert = new JPanel();
+        panelInsert.setBounds(10, 100, getWidth(), 300);
+        add(panelInsert);
+        
+        //Label: Insert
+        JLabel labelInsert = new JLabel("Insert: ");
         labelInsert.setAlignmentX(this.getWidth()/2);
         labelInsert.setAlignmentY(100);
-        add(labelInsert);
+        panelInsert.add(labelInsert);
         
+        //Button: Insert tutor
         JButton buttonInsertTutor = new JButton("Tutor");
-        buttonInsertTutor.setBounds(20, 50, 50, 20);
-        add(buttonInsertTutor);
+        buttonInsertTutor.setBounds(10, 50, 50, 20);
+        panelInsert.add(buttonInsertTutor);
         
-        setBounds(200, 200, 300, 300);
+        //Button: Insert tutor group
+        JButton buttonInsertGroup = new JButton("Tutor Group");
+        buttonInsertGroup.setBounds(10, 50, 50, 20);
+        panelInsert.add(buttonInsertGroup);
+        
+        //Button: Insert student
+        JButton buttonInsertStudent = new JButton("Student");
+        buttonInsertStudent.setBounds(10, 50, 50, 20);
+        panelInsert.add(buttonInsertStudent);
+        
+        //Show frame
         setVisible(true);
     }
     
