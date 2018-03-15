@@ -23,8 +23,8 @@ public class NewInterface extends JFrame{
         
         //Container: Insert
         JPanel panelInsert = new JPanel();
-        panelInsert.setBounds(10, 100, getWidth(), 300);
-        add(panelInsert);
+        panelInsert.setBounds(10, 100, getWidth(), 200);
+        //add(panelInsert);
         
         //Label: Insert
         JLabel labelInsert = new JLabel("Insert: ");
@@ -46,6 +46,37 @@ public class NewInterface extends JFrame{
         JButton buttonInsertStudent = new JButton("Student");
         buttonInsertStudent.setBounds(10, 50, 50, 20);
         panelInsert.add(buttonInsertStudent);
+        
+        //Container: Select
+        JPanel panelSelect = new JPanel();
+        panelSelect.setBounds(10, 100, getWidth(), 200);
+        //add(panelSelect);
+        
+        //Label: Select
+        JLabel labelSelect = new JLabel("Read: ");
+        labelSelect.setAlignmentX(this.getWidth()/2);
+        labelSelect.setAlignmentY(100);
+        panelSelect.add(labelSelect);
+        
+        //Button: Select tutor group
+        JButton buttonSelectGroup = new JButton("Group");
+        buttonSelectGroup.setBounds(10, 50, 50, 20);
+        panelSelect.add(buttonSelectGroup);
+        
+        //Button: Select students
+        JButton buttonSelectTutor = new JButton("Students");
+        buttonSelectTutor.setBounds(10, 50, 50, 20);
+        panelSelect.add(buttonSelectTutor);
+        
+        //TextField: Tutor group/tutor name
+        JTextField textFieldSelect = new JTextField("yes");
+        textFieldSelect.setSize(200, 20);
+        textFieldSelect.setVisible(true);
+        panelSelect.add(textFieldSelect);
+        
+        //Add panels (reverse order)
+        add(panelSelect);
+        add(panelInsert);
         
         //Show frame
         setVisible(true);
