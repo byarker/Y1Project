@@ -17,8 +17,7 @@ public class DataBaseHandler {
     Note: This only sents and retrives data from the database,
     if you want to process that data locally it'll have to be done elsewhere.
     ¯\_(ツ)_/¯ Someone else can do that while I hunt down a database.
-    Also if you read this before 1pm tomorrow, and we're still going to be in at 1pm tomorrow.
-    I will likely be in, that way I'm not in for half an hour if we get nothing new in cass
+    
 
     */
     Connection con;
