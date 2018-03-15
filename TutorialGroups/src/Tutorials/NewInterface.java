@@ -20,9 +20,15 @@ public class NewInterface extends JFrame{
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         
         JLabel labelInsert = new JLabel("Insert");
-        labelInsert.setAlignmentX(TOP_ALIGNMENT);
+        labelInsert.setAlignmentX(this.getWidth()/2);
+        labelInsert.setAlignmentY(100);
+        add(labelInsert);
         
-        pack();
+        JButton buttonInsertTutor = new JButton("Tutor");
+        buttonInsertTutor.setBounds(20, 50, 50, 20);
+        add(buttonInsertTutor);
+        
+        setBounds(200, 200, 300, 300);
         setVisible(true);
     }
     
