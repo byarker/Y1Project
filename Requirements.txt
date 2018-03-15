@@ -1,4 +1,5 @@
-Project Requirements
+Requirements Document
+
 •	Should be able to create new student entry
 •	Should be able to create new tutor entry
 •	Should be able to create new tutor group entry
