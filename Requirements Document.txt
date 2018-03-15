@@ -1,0 +1,21 @@
+Project Requirements
+•	Should be able to create new student entry
+•	Should be able to create new tutor entry
+•	Should be able to create new tutor group entry
+•	Should be able to edit a student entry
+•	Should be able to edit a tutor entry
+•	Should be able to edit a tutor group entry
+
+•	Each tutor group should have a tutor
+•	Each student should have a tutor group
+•	Each tutor group should have 4 to 8 students
+•	One tutor group may have less than 4 students
+
+•	Tutor groups should be identified by a name and year group
+•	Tutors should be identified by name and UoB number
+•	Students should be identified by name, UoB number, and year of study (1, 2, 3 for UG students and 5 for PG students)
+•	Students in a tutor group should all be in the same year
+
+•	Should be a web-based or standalone system
+•	Should not need a login for database, files to be stored locally
+•	Interface should be intuitive and easy to use
