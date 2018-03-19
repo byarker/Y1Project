@@ -11,7 +11,7 @@ import java.util.logging.Logger;
  *
  * @author Shadow
  */
-public class DataBaseHandler {
+public class DataBaseHandler implements InterfaceCaller{
     /*
     Untested and might not even work, i'll do comments tomorrow stuffs.
     Note: This only sents and retrives data from the database,

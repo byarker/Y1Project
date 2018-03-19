@@ -13,10 +13,10 @@ import java.sql.ResultSet;
  */
 public interface InterfaceCaller {
 
-    void InsertStudent(String name, int uobnumber, int year, String tutorGroup);
-    void InsertTutor(String name, int uobnumber);
-    void InsertGroup(String groupName, int year, String tutor);
-    ResultSet SelectGroup(String groupName); // should take tutor group name, and return all students in that group.
-    ResultSet SelectTutees(String tutor); // should take a tutor name, and return all tutor groups they run.
+    void insertStudent(Student sudent);
+    void insertTutor(Tutor tutor);
+    void insertGroup(TutorGroup group);
+    ResultSet selectGroup(String groupName); // should take tutor group name, and return all students in that group.
+    ResultSet selectStudent(String tutor); // should take a tutor name, and return all tutor groups they run.
 
 }
