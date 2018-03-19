@@ -16,7 +16,7 @@ public interface InterfaceCaller {
     void insertStudent(Student sudent);
     void insertTutor(Tutor tutor);
     void insertGroup(TutorGroup group);
-    ResultSet selectGroup(String groupName); // should take tutor group name, and return all students in that group.
-    ResultSet selectStudent(String tutor); // should take a tutor name, and return all tutor groups they run.
+    ResultSet selectStudent(String groupName); // should take tutor group name, and return all students in that group.
+    ResultSet selectGroup(String tutor); // should take a tutor name, and return all tutor groups they run.
 
 }

@@ -60,9 +60,8 @@ public class TutorGroup {
     }
 
     //constructor
-    public TutorGroup(String name, int members, int year, String tutor) {
+    public TutorGroup(String name, int year, String tutor) {
         this.name = name;
-        this.members = members;
         this.year = year;
         this.tutor = tutor;
     }

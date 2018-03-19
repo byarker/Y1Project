@@ -10,6 +10,7 @@ package Tutorials;
  * @author byarker1
  */
 
+import java.sql.ResultSet;
 import java.util.Scanner;
 
 public class StandardInput {
@@ -60,6 +61,8 @@ public class StandardInput {
                 String name = input.next();
                 System.out.print("Enter UOB number: ");
                 String uob = input.next();
+                Tutor tutor = new Tutor(name, uob);
+                dbhandle.insertTutor(tutor);
             }
             if (target.equals("group")) 
             {
@@ -69,6 +72,8 @@ public class StandardInput {
                 int year = Integer.valueOf(input.next());
                 System.out.print("Enter tutor name: ");
                 String tutor = input.next();
+                TutorGroup group = new TutorGroup(groupname, year, tutor);
+                dbhandle.insertGroup(group);
             }
             if (target.equals("student")) 
             {
@@ -80,6 +85,38 @@ public class StandardInput {
                 int year = Integer.valueOf(input.next());
                 System.out.print("Enter group name: ");
                 String group = input.next();
+                Student student = new Student(name, uob, year, group);
+                dbhandle.insertStudent(student);
+            }
+        }
+        else if (command.equals("view"))
+        {
+            System.out.print("SELECT (group/students): ");
+            while (target.equals(""));
+            {
+                String temp = input.next();
+                if (temp.equals("group") || temp.equals("students")) 
+                {
+                    target = temp;
+                }
+                else 
+                {
+                    System.out.print("Invalid target (group/students): ");
+                }
+            }
+            if (target.equals("group"))
+            {
+                System.out.print("Enter group name: ");
+                String name = input.next();
+                ResultSet set = dbhandle.selectGroup(name);
+                System.out.println(set);
+            }
+            else if (target.equals("students"))
+            {
+                System.out.print("Enter tutor name: ");
+                String name = input.next();
+                ResultSet set = dbhandle.selectStudent(name);
+                System.out.println(set);
             }
         }
     }
