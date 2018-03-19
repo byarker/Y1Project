@@ -13,7 +13,7 @@ import java.sql.ResultSet;
  */
 public interface InterfaceCaller {
 
-    void insertStudent(Student sudent);
+    void insertStudent(Student student);
     void insertTutor(Tutor tutor);
     void insertGroup(TutorGroup group);
     ResultSet selectStudent(String groupName); // should take tutor group name, and return all students in that group.
